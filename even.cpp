@@ -3,6 +3,7 @@ using namespace std;
 int main(){
     int a;
     cin>>a;
-    if(a%2==0)cout<<"the number is even.\n";
-    else cout<<"the number is odd.\n";
+    if(a>0)cout<<"possitive.\n";
+    else if (a==0)cout<<"zero.\n";
+    else cout<<"negative.\n";
 }
